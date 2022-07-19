@@ -94,12 +94,95 @@ p{
         padding: 10px 20px;
     }
     h1{
-        font-size: 22px;
+        font-size: 20px;
     }
     h1 br{
         display: none;
     }
     p{
         font-size: 14px;
+    }
+}
+/* Small to Mediam Device  */
+@media only screen and (min-width: 577px) and (max-width: 768px){
+        .hero-container {
+            width: 90%;
+            height: 530px;
+    }
+        .hero-area{
+            height: 85vh;
+        }
+        .hero-image img{
+            width: 100%;
+            text-align: right;
+        }
+        .hero-image{
+            padding: 0;
+        }
+        .hero-info{
+            padding: 0 10px
+        }
+        h1{
+            font-size: 40px;
+        }
+    
+        p{
+            font-size: 14px;
+        }
+}
+/* Large Device  */
+@media only screen and (min-width: 767px) and (max-width: 992px){
+    .hero-area{
+        height: 100vh;
+    }
+    .hero-image img {
+        width: 100%;
+        text-align: right;
+    }
+
+    .hero-image {
+        padding: 0;
+    }
+
+    .hero-info {
+        padding: 0 10px
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+}
+/* Extra Large Device  */
+@media only screen and (min-width: 993px) and (max-width: 1450px) {
+    .hero-image img {
+            width: 100%;
+            text-align: right;
+        }
+    
+        .hero-image {
+            padding: 0;
+        }
+    
+        .hero-info {
+            padding: 0 10px
+        }
+    
+        h1 {
+            font-size: 60px;
+        }
+    
+        p {
+            font-size: 16px;
+        }
+}
+/* Large Exta Large */
+@media only screen and (max-width: 1500px){
+    h1{
+        font-size: 60px;
     }
 }

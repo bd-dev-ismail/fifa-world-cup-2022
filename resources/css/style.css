@@ -72,7 +72,7 @@ p{
 
 /* Media Queries  */
 /* Mobile Devices  */
-@media only screen and (max-width: 668px){
+@media only screen and (max-width: 576px){
     .hero-container{
         flex-direction: column;
         width: 85%;

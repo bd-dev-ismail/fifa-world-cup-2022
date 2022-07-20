@@ -139,6 +139,26 @@ p{
     text-align: center;
     display: none;
 }
+/* For upcoming page Style  */
+.live-play{
+    width: 312px;
+    height: 220px;
+    box-shadow: 8px 8px 16px gray;
+    padding: 35px 0;
+    background-color: #ffffc9;
+}
+.live-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.live-time{
+    padding: 30px 0;
+    text-align: center;
+}
+.live-date{
+    padding-top: 20px;
+}
 /* Start Footer Section  */
 #footer-container{
     width: 100%;
@@ -359,7 +379,7 @@ p{
         }
     
         .btn.btn-pro {
-            width: 290px;
+            width: 215px;
             border: 1px solid gray;
             margin: 0 5px;
         }

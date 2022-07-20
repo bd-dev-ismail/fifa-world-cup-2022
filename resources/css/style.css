@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 /* Fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
@@ -85,18 +86,24 @@ p{
     margin-right: 30px;
     border-radius: 10px;
 }
-.btn.btn-pro{
+.btn.btn-pro {
     width: 220px;
     margin: 10px 0;
     display: block;
     background-color: var(--white);
-}
-.btn.btn-pro a{
-    color: var(--simple-dark);
     font-size: 20px;
 }
+.btn.btn-pro:hover{
+    background-color: var(--orange);
+        color: var(--white);
+}
+/* .btn.btn-pro a{
+    color: var(--simple-dark);
+    font-size: 20px;
+} */
 #active{
     background-color: var(--orange);
+    color: var(--white);
 }
 .live-transfer{
     display: grid;

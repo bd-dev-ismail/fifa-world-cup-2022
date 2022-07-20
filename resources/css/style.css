@@ -457,10 +457,23 @@ p{
 }
 /* Extra Large Device  */
 @media only screen and (min-width: 993px) and (max-width: 1450px) {
+    @keyframes text {
+        0%{
+            margin-bottom: -20px;
+        }
+        30%{
+            margin-bottom: 15px;
+        }
+        85%{
+            letter-spacing: 5px;
+            margin-bottom: 15px;
+        }
+    }
     .hero-container{
         width:90%;
         height: 500px;
         padding: 0 20px;
+        align-items: flex-end;
     }
     .hero-area{
         height: 50vh;
@@ -476,6 +489,7 @@ p{
     
         .hero-info {
             padding: 0 10px
+            margin-bottom: 120px;
         }
     
         h1 {

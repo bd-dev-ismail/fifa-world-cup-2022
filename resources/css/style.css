@@ -501,16 +501,23 @@ p{
         }
         .
         /* Blog Section  */
-                .live-transfer {
-                    grid-template-columns: repeat(3, 1fr);
-                }
-                .hero-container{
+        .live-transfer {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+            .hero-container{
                     height: 662px;
-                }
-                .hero-area {
-                    height: 100vh;
-                }
-                 #blog-section{
+            }
+            .hero-area {
+                height: 100vh;
+            }
+                #blog-section{
                     margin: 50px 0;
                  }
+        .side-nav{
+            width: 260px;
+            height: 270px;
+            padding: 25px;
+            margin-right: 20px;
+        }
 }

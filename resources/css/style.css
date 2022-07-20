@@ -139,8 +139,9 @@ p{
     /* Hero Section Responsive  */
     .hero-container{
         flex-direction: column;
-        width: 85%;
+        width: 90%;
         height: 100%;
+        margin-top: 30px;
     }
     .hero-area{
         height: 100%;
@@ -189,6 +190,7 @@ p{
         .hero-container {
             width: 90%;
             height: 400px;
+            margin-top: 40px;
     }
         .hero-area{
             height: 50vh;

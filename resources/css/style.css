@@ -61,6 +61,11 @@ p{
     margin-bottom: 10px;
     animation: text 3s 2;
 }
+.hero-title h1.hover{
+    margin-bottom: 10px;
+    animation: text 3s 2;
+}
+
 /* Hero Section Style  */
 .hero-area{
     width: 100%;
@@ -135,7 +140,14 @@ p{
     width: 312px;
     height: 362px;
     box-shadow: 8px 8px 16px gray;
+    border-radius: 0 0 10px 10px;
 }
+.live img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+
 .live-info{
     padding: 20px;
 }
@@ -150,6 +162,7 @@ p{
     font-size: 18px;
     padding: 25px 0;
 }
+
 .timing{
     display: flex;
 }
@@ -196,7 +209,7 @@ p{
     color: var(--orange);
 }
 .main-footer hr{
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     border: 1px solid gray;
 }

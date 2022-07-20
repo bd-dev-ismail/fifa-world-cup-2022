@@ -99,6 +99,7 @@ p{
     padding-top: 50px;
     text-align: center;
 }
+
 /* Start Blog Section Design  */
 #blog-section{
     margin: 100px 0;
@@ -260,6 +261,9 @@ p{
         width: 100%;
         text-align: center;
     }
+    .hero-info .hide-mbl{
+        display: none;
+    }
     .hero-image{
         padding: 0;
         width: 100%;
@@ -324,6 +328,9 @@ p{
         .hero-area{
             height: 50vh;
         }
+        .hero-info .hide-mbl {
+             display: none;
+        }
         .hero-image img{
             width: 100%;
             text-align: right;
@@ -378,11 +385,18 @@ p{
 @media only screen and (min-width: 767px) and (max-width: 992px){
     .hero-container{
         width:90%;
-        height: 480px;
+        height: 440px;
+        align-items: flex-end;
     }
-        .hero-title {
-            animation: none;
-        }
+    .hero-info{
+        margin-bottom: 50px;
+    }
+    .hero-title {
+        animation: none;
+    }
+    .hero-info .hide-mbl {
+        display: none;
+     }
     .hero-area{
         height: 50vh;
     }
@@ -470,6 +484,7 @@ p{
         p {
             font-size: 1rem;
         }
+        .
         /* Blog Section  */
                 .live-transfer {
                     grid-template-columns: repeat(3, 1fr);
@@ -484,9 +499,3 @@ p{
                     margin: 50px 0;
                  }
 }
-/* Large Exta Large */
-/* @media only screen and () (max-width: 1500px){
-    h1{
-        font-size: 60px;
-    }
-} */

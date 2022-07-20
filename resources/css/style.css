@@ -19,6 +19,7 @@
 /* Reuseable Component  */
 body{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
     
 }
 .btn{
@@ -134,7 +135,7 @@ p{
 .live-transfer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 20px;
 }
 .live{
     width: 312px;
@@ -470,6 +471,9 @@ p{
             font-size: 1rem;
         }
         /* Blog Section  */
+                .live-transfer {
+                    grid-template-columns: repeat(3, 1fr);
+                }
                 .hero-container{
                     height: 662px;
                 }

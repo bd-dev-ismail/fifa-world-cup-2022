@@ -232,12 +232,13 @@ p{
 }
 .social-icon{
     text-align: center;
+}
+.social-icon a{
     color: var(--white);
 }
 .social-icon .footer-icon{
     font-size: 1.5rem;
     padding: 20px 10px;
-    
 }
 
 /* Media Queries  */

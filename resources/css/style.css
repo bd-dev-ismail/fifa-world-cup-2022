@@ -24,8 +24,8 @@ body{
 .btn{
     padding: 15px 30px;
     background-color: var(--orange);
-    border: none;
     border-radius: 5px;
+    border: none;
 }
 .btn a,
 .btn fa-angle-right{
@@ -39,6 +39,27 @@ h1{
 }
 p{
     font-size: 1rem;
+}
+/* Add Animation on Header  */
+@keyframes text {
+    0%{
+        color: var(--simple-dark);
+        margin-bottom: -30px;
+    }
+    30%{
+        letter-spacing: 12px;
+        margin-bottom: -30px;
+    }
+    85%{
+        letter-spacing: 6px;
+        margin-bottom: -30px;
+    }
+}
+.hero-title{
+    background-color: var(--simple-dark);
+    position: relative;
+    margin-bottom: 10px;
+    animation: text 3s 2;
 }
 /* Hero Section Style  */
 .hero-area{
@@ -213,6 +234,9 @@ p{
         height: 100%;
         margin-top: 30px;
     }
+    .hero-title{
+        animation: none;
+    }
     .hero-area{
         height: 100%;
     }
@@ -279,6 +303,9 @@ p{
             height: 400px;
             margin-top: 40px;
     }
+        .hero-title {
+            animation: none;
+        }
         .hero-area{
             height: 50vh;
         }
@@ -316,9 +343,11 @@ p{
             background-color: var(--white);
         }
         .btn.btn-pro{
-            width: 220px;
+            width: 170px;
             border: 1px solid gray;
             margin: 0 5px;
+            align-items: center;
+            justify-content: center;
         }
         .tablet-btn{
             display: inline-block;
@@ -336,6 +365,9 @@ p{
         width:90%;
         height: 480px;
     }
+        .hero-title {
+            animation: none;
+        }
     .hero-area{
         height: 50vh;
     }
@@ -382,6 +414,8 @@ p{
             width: 215px;
             border: 1px solid gray;
             margin: 0 5px;
+            align-items: center;
+            justify-content: center;
         }
     
         .tablet-btn {
